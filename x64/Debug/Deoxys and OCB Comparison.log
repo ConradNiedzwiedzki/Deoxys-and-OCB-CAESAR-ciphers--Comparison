@@ -1,0 +1,14 @@
+﻿Build started 2018-01-08 20:40:47.
+     1>Project "C:\Users\DELL1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\Deoxys and OCB Comparison\Deoxys and OCB Comparison.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\OpenSSL-Win64\include" /ZI /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\Deoxys and OCB Comparison.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt "Deoxys and OCB Comparison.cpp"
+         Deoxys and OCB Comparison.cpp
+       Link:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DELL1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\x64\Debug\Deoxys and OCB Comparison.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\OpenSSL-Win64\lib" libeay32.lib ssleay32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\DELL1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\x64\Debug\Deoxys and OCB Comparison.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DELL1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\x64\Debug\Deoxys and OCB Comparison.lib" /MACHINE:X64 "x64\Debug\Deoxys and OCB Comparison.obj"
+         x64\Debug\stdafx.obj
+         Deoxys and OCB Comparison.vcxproj -> C:\Users\DELL1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\x64\Debug\Deoxys and OCB Comparison.exe
+     1>Done Building Project "C:\Users\DELL1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\Deoxys and OCB Comparison\Deoxys and OCB Comparison.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.50

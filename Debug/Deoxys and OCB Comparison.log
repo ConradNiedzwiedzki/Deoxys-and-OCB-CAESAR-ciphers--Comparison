@@ -1,0 +1,49 @@
+﻿Build started 2017-12-16 00:18:10.
+     1>Project "c:\Users\DELL1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\Deoxys and OCB Comparison\Deoxys and OCB Comparison.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\OpenSSL-Win64\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Deoxys and OCB Comparison.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt "Deoxys and OCB Comparison.cpp" OCB3.c
+         OCB3.c
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\ocb3.c(237): warning C4028: formal parameter 2 different from declaration
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\ocb3.c(239): warning C4244: 'function': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\ocb3.c(244): warning C4028: formal parameter 2 different from declaration
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\ocb3.c(246): warning C4244: 'function': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+         Deoxys and OCB Comparison.cpp
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\ocb3.c(237): warning C4028: formal parameter 2 different from declaration
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\ocb3.c(239): warning C4244: 'function': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\ocb3.c(244): warning C4028: formal parameter 2 different from declaration
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\ocb3.c(246): warning C4244: 'function': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\deoxys and ocb comparison.cpp(37): warning C4047: 'function': 'unsigned char *' differs in levels of indirection from 'unsigned char (*)[32]'
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\deoxys and ocb comparison.cpp(37): warning C4024: 'crypto_aead_encrypt': different types for formal and actual parameter 1
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\deoxys and ocb comparison.cpp(37): warning C4047: 'function': 'unsigned char *' differs in levels of indirection from 'unsigned char (*)[16]'
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\deoxys and ocb comparison.cpp(37): warning C4024: 'crypto_aead_encrypt': different types for formal and actual parameter 3
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\deoxys and ocb comparison.cpp(37): warning C4024: 'crypto_aead_encrypt': different types for formal and actual parameter 5
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\deoxys and ocb comparison.cpp(37): warning C4047: 'function': 'unsigned char *' differs in levels of indirection from 'unsigned char (*)[8]'
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\deoxys and ocb comparison.cpp(37): warning C4024: 'crypto_aead_encrypt': different types for formal and actual parameter 7
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\deoxys and ocb comparison.cpp(37): warning C4024: 'crypto_aead_encrypt': different types for formal and actual parameter 8
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\deoxys and ocb comparison.cpp(37): warning C4047: 'function': 'unsigned char *' differs in levels of indirection from 'unsigned char (*)[57]'
+     1>c:\users\dell1\documents\visual studio 2015\projects\deoxys and ocb comparison\deoxys and ocb comparison\deoxys and ocb comparison.cpp(37): warning C4024: 'crypto_aead_encrypt': different types for formal and actual parameter 9
+         Generating Code...
+       Link:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\dell1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\Debug\Deoxys and OCB Comparison.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\OpenSSL-Win64\lib\VC" /LIBPATH:"C:\OpenSSL-Win64\lib" ssleay32MT.lib libeay32MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\dell1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\Debug\Deoxys and OCB Comparison.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\dell1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\Debug\Deoxys and OCB Comparison.lib" /MACHINE:X86 "Debug\Deoxys and OCB Comparison.obj"
+         Debug\OCB3.obj
+         Debug\stdafx.obj
+     1>OCB3.obj : error LNK2005: _crypto_aead_decrypt already defined in Deoxys and OCB Comparison.obj
+     1>OCB3.obj : error LNK2005: _crypto_aead_encrypt already defined in Deoxys and OCB Comparison.obj
+     1>OCB3.obj : error LNK2005: _ocb_decrypt already defined in Deoxys and OCB Comparison.obj
+     1>OCB3.obj : error LNK2005: _ocb_encrypt already defined in Deoxys and OCB Comparison.obj
+     1>Deoxys and OCB Comparison.obj : error LNK2019: unresolved external symbol _AES_set_encrypt_key referenced in function _hash
+     1>OCB3.obj : error LNK2001: unresolved external symbol _AES_set_encrypt_key
+     1>Deoxys and OCB Comparison.obj : error LNK2019: unresolved external symbol _AES_set_decrypt_key referenced in function _ocb_crypt
+     1>OCB3.obj : error LNK2001: unresolved external symbol _AES_set_decrypt_key
+     1>Deoxys and OCB Comparison.obj : error LNK2019: unresolved external symbol _AES_encrypt referenced in function _hash
+     1>OCB3.obj : error LNK2001: unresolved external symbol _AES_encrypt
+     1>Deoxys and OCB Comparison.obj : error LNK2019: unresolved external symbol _AES_decrypt referenced in function _ocb_crypt
+     1>OCB3.obj : error LNK2001: unresolved external symbol _AES_decrypt
+     1>C:\OpenSSL-Win64\lib\VC\ssleay32MT.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+     1>C:\OpenSSL-Win64\lib\VC\libeay32MT.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+     1>c:\users\dell1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\Debug\Deoxys and OCB Comparison.exe : fatal error LNK1120: 4 unresolved externals
+     1>Done Building Project "c:\Users\DELL1\documents\visual studio 2015\Projects\Deoxys and OCB Comparison\Deoxys and OCB Comparison\Deoxys and OCB Comparison.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.12
